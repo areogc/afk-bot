@@ -7,8 +7,8 @@
     "dev": "bun run --watch src/index.ts",
     "start": "bun run src/index.ts",
     "build": "bun build src/index.ts --outdir dist --target bun",
-    "dashboard:dev": "cd dashboard && bun run dev",
-    "dashboard:build": "cd dashboard && bun run build",
+    "dashboard:dev": "cd dashboard && bun install && bun run dev",
+    "dashboard:build": "cd dashboard && bun install && bun run build",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
