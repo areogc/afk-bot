@@ -1,0 +1,25 @@
+{
+  "name": "mc-afk-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "dashboard:dev": "cd dashboard && bun run dev",
+    "dashboard:build": "cd dashboard && bun run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0",
+    "prismarine-entity": "^2.2.0",
+    "bun-types": "^1.1.0"
+  }
+}
