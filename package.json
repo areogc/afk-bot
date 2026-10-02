@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "mineflayer": "^4.34.0",
+    "mineflayer": "^4.39.0",
     "mineflayer-pathfinder": "^2.4.5",
     "vec3": "^0.1.8",
     "minecraft-data": "github:PrismarineJS/minecraft-data#pc_26_3"
@@ -22,5 +22,11 @@
     "typescript": "^5.6.0",
     "prismarine-entity": "^2.2.0",
     "bun-types": "^1.1.0"
+  },
+  "overrides": {
+    "minecraft-data": "github:PrismarineJS/minecraft-data#pc_26_3"
+  },
+  "resolutions": {
+    "minecraft-data": "github:PrismarineJS/minecraft-data#pc_26_3"
   }
 }
